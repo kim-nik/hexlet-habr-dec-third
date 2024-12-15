@@ -9,11 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@atlaskit/pragmatic-drag-and-drop": "^1.4.0",
     "@reduxjs/toolkit": "^2.5.0",
     "autoprefixer": "^10.4.20",
     "next": "15.1.0",
     "react": "^19.0.0",
-    "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^19.0.0",
     "react-redux": "^9.2.0"
   },
