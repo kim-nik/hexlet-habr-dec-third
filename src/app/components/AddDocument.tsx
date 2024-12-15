@@ -17,8 +17,9 @@ const AddDocument: React.FC = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="mb-4">
+    <form onSubmit={handleSubmit} className="mb-4 text-black">
       <input
+        required
         type="text"
         value={title}
         onChange={(e) => setTitle(e.target.value)}

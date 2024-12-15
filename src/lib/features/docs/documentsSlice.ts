@@ -27,7 +27,6 @@ const documentsSlice = createSlice({
     },
     addDocument: (state, action: PayloadAction<Omit<Document, "id">>) => {
       const id = `${Date.now()}`;
-      console.log(action.payload);
       state.documents.push({ id, ...action.payload });
     },
     updateDocumentStatus: (
